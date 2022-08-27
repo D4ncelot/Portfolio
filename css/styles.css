@@ -60,5 +60,54 @@ a {
 }
 
 .nav-login button {
-    
+    color: green;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center/cover;
+}
+
+/* Arcerca de Mi */
+.aboutme {
+    display: flex;
+}
+
+.profile {
+    border: 2px solid rgb(3, 128, 167);
+    background: white;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.profile p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+}
+
+.moreinfo {
+    border: 2px solid rgb(3, 128, 167);
+    background: white;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr.body {
+    border: 2px dashed blue;
 }
